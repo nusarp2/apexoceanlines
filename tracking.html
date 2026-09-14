@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shipment Tracking — Apex Ocean Lines</title>
+<meta name="description" content="How Apex Ocean Lines keeps clients updated on shipment status from booking to delivery." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="15" stroke="#f2a83f" stroke-width="2"/>
+        <path d="M16 6v20M9 12l7-4 7 4M8 20c1.5 2 4 3 8 3s6.5-1 8-3" stroke="#f2a83f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      APEX OCEAN LINES
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tracking.html">Tracking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary desktop-only">Get a Quote</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow on-dark">Shipment Tracking</div>
+    <h1>Always know where your cargo stands</h1>
+    <p class="lead">Every shipment gets a named specialist and a clear update rhythm — so you find out about a delay from us, not from a missed delivery date.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow">How It Works</div>
+      <h2>From booking confirmation to proof of delivery</h2>
+    </div>
+    <div class="steps" style="max-width:760px; margin:0 auto;">
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <div>
+          <h3>Booking confirmed</h3>
+          <p>You receive a written booking confirmation with carrier, routing and estimated transit time.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">2</div>
+        <div>
+          <h3>Departure notice</h3>
+          <p>We confirm once your cargo has departed, along with the vessel/flight details and expected arrival window.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">3</div>
+        <div>
+          <h3>In-transit updates</h3>
+          <p>Your account specialist flags any schedule changes, transshipments or customs holds as soon as we know about them — not on a fixed weekly check-in.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">4</div>
+        <div>
+          <h3>Arrival &amp; customs clearance</h3>
+          <p>We manage clearance at the port of entry and let you know the moment your cargo is released.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">5</div>
+        <div>
+          <h3>Final delivery</h3>
+          <p>Delivery confirmation and documentation are sent once your cargo reaches its final destination.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-soft">
+  <div class="container">
+    <div class="form-panel reveal" style="max-width:640px; margin:0 auto;" >
+      <div class="eyebrow">Existing Shipment</div>
+      <h2>Ask about a shipment in progress</h2>
+      <p>We're a new company building out a self-serve tracking portal. Until it's live, the fastest way to get a status update is directly from your account specialist.</p>
+      <form data-contact-form action="mailto:info@apexoceanlines.com" method="post" enctype="text/plain">
+        <div class="form-row">
+          <div class="field">
+            <label for="t-name">Full Name</label>
+            <input id="t-name" name="Name" type="text" placeholder="Jane Smith" required />
+          </div>
+          <div class="field">
+            <label for="t-ref">Booking / Reference Number</label>
+            <input id="t-ref" name="Reference" type="text" placeholder="If known" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="t-email">Email</label>
+          <input id="t-email" name="Email" type="email" placeholder="jane@company.com" required />
+        </div>
+        <div class="field">
+          <label for="t-msg">What would you like to know?</label>
+          <textarea id="t-msg" name="Message" placeholder="Origin, destination, and what you'd like an update on"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Request Status Update →</button>
+        <p class="note" data-form-status>This opens your email client addressed to info@apexoceanlines.com — nothing is sent automatically.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="26" height="26" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="15" stroke="#f2a83f" stroke-width="2"/>
+            <path d="M16 6v20M9 12l7-4 7 4M8 20c1.5 2 4 3 8 3s6.5-1 8-3" stroke="#f2a83f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          APEX OCEAN LINES
+        </div>
+        <p>Modern ocean, air and customs freight forwarding for growing businesses.</p>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.7c0-1.36-.02-3.1-1.9-3.1-1.9 0-2.19 1.48-2.19 3v5.8h-4V9z"/></svg></a>
+          <a href="#" aria-label="X / Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 3H22l-7.2 8.2L23 21h-6.6l-5.2-6.6L5.2 21H2l7.7-8.8L1.7 3h6.8l4.7 6.1L18.9 3z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#ocean">Ocean Freight</a></li>
+          <li><a href="services.html#air">Air Freight</a></li>
+          <li><a href="services.html#customs">Customs Brokerage</a></li>
+          <li><a href="services.html#warehousing">Warehousing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="tracking.html">Shipment Tracking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>info@apexoceanlines.com</li>
+          <li>sales@apexoceanlines.com</li>
+          <li><a href="contact.html">Send us a message →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Apex Ocean Lines. All rights reserved.</span>
+      <span>apexoceanlines.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
